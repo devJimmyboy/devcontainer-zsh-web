@@ -1,0 +1,15 @@
+{
+  "name": "Epic Dev Container",
+  "image": "",
+  "forwardPorts": [3000],
+  "extensions": [
+    "coenraads.bracket-pair-colorizer-2",
+    "formulahendry.auto-rename-tag",
+    "aaron-bond.better-comments",
+    "miguelsolorio.fluent-icons",
+    "github.copilot",
+    "eamodio.gitlens"
+  ],
+  "dockerComposeFile": ["docker-compose.yml"],
+  "features": { "common": "latest", "github": "latest", "node": "latest" }
+}
